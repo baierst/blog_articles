@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blog-articles"
+version = "0.1.0"
+description = ""
+authors = ["Stephan Baier <stephan.baier@gmail.com>"]
+readme = "README.md"
+packages = [{include = "blog_articles"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+notebook = "^6.5.2"
+pandas = "^1.5.3"
+plotly = "^5.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
